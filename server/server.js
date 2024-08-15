@@ -1,8 +1,10 @@
 const express = require("express");
 const fileUpload = require("express-fileupload");
 const path = require("path");
+const cors = require("cors");
 
 const app = express();
+app.use(cors());
 app.use(fileUpload());
 const uploadPath = path.join(__dirname, '..', 'client', 'public', 'uploads');
 
