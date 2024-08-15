@@ -1,0 +1,9 @@
+{
+  "start":{
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.1"
+  }
+}
