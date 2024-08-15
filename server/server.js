@@ -6,6 +6,7 @@ const cors = require("cors");
 const app = express();
 app.use(cors());
 app.use(fileUpload());
+
 const uploadPath = path.join(__dirname, '..', 'client', 'public', 'uploads');
 
 app.post("/upload", (req,res) => {

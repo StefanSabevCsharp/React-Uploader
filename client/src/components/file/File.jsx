@@ -3,8 +3,6 @@ import React, { useEffect } from 'react';
 export default function File({ file }) {
  
     const uploadFilePath = `${file.filePath}`;
-    console.log(uploadFilePath);
-   
 
     return (
         <div className="row mt-5">
