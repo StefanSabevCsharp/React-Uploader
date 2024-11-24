@@ -20,7 +20,7 @@ The client is a React application that allows users to upload files to the serve
 - Display upload progress
 - Show success or error messages based on the upload status
 
-The client is available online at: [http://uploader.stefansabev.com](http://uploader.stefansabev.com)
+The client is available online at: [https://uploader.stefansabev.com](https://uploader.stefansabev.com)
 
 ## Server
 
